@@ -1,0 +1,167 @@
+.submit{
+   padding:10px;
+   width: 200px;
+   border-radius: 20px;
+   background-color: #1e1e26;
+   border: none;
+   color: white;
+}
+:hover.submit{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.6s;
+}
+#nav{
+    border-bottom: 0.1px solid gray;
+}
+.landing{
+ display: flex;
+ justify-content: space-between;
+}
+#Welcome h1{
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 70px;
+    font-weight: 600;
+}
+.image img{
+ width: 100%;
+}
+#Welcome p{
+    margin-left: 200px;
+    letter-spacing: 10px; 
+}
+.btns{
+    margin-top: 2rem;
+    margin-left: 200px;
+    display: grid;
+    width: 50%;
+    justify-content: center;
+    gap: 10px;
+}
+.btn1{
+    padding:15px;
+    width: 200px; 
+    border-radius: 10px;
+    border: none;
+    background-color: #fc3d23;
+    color: white;
+}
+.sec1{
+    background-color: #edf2f2;
+}
+.btn2{
+    padding:15px;
+    width: 200px; 
+    border-radius: 10px;
+    border: none; 
+    background-color: #1e1e26;
+    color: white;
+}
+.header{
+    text-align: center;
+    margin-top: 4rem;
+}
+.empty{
+    background-color: gray;
+    height: 2px;
+    width: 20%;
+    margin-left: 600px;
+    margin-top: -9px;
+}
+/* .heading{
+    background-image: url("images/header.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+} */
+.logo img{
+    width: 30%;
+}
+.logos{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.logos p{
+    color: #fc3d23;
+    font-weight: 600;
+    font-size: 20px;
+}
+.logos h4{
+    font-size: 10px;
+    margin-left: 50px;
+}
+
+.landingpage{
+    background-image: url("images/Adoração.jpg");
+    height: 150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 50%;
+    height: 20vh;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    left: 350px;
+    border: #fc3d23 2px solid;
+    margin-bottom: 5rem;
+    padding: 25px;
+}
+.box button{
+    padding:10px;
+    width: 150px; 
+    border-radius: 10px;
+    border: white 2px solid;
+    background-color: #fc3d23;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    left: 650px;
+    bottom: 50px;
+}
+.empty1{
+    background-color: #fc3d23;
+    height: 2px;
+    width: 20%;
+    margin-top: -9px;
+}
+.footer{
+    margin: 2rem;
+}
+.footerimage img{
+    margin-left: 2rem;
+  width: 90%;
+  height: 200px;
+  margin-bottom: 1rem;
+  border-radius: 20px
+}
+
+.footer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 40%;
+}
+.btn3{
+    padding:10px;
+    width: 150px; 
+    border-radius: 10px;
+    border: none;
+    background-color: #fc3d23;
+    color: white;
+}
+.footerpage{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.message{
+    margin-top: 4rem;
+    font-size: 20px;
+    width: 50%;
+}
